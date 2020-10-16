@@ -5,4 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-project1 = Project.create()
+project1 = Project.create( name: "Synthetix", chain: "ETH", category: "Derivatives", held: 0)
+ 

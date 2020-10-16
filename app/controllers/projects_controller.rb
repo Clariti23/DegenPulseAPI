@@ -27,7 +27,7 @@ class ProjectsController < ApplicationController
         project.destroy
         render json: projects
     end
-    
+
     private 
     def project_params
         params.require(:project).permit(:name, :chain, :category, :held)
@@ -35,4 +35,4 @@ class ProjectsController < ApplicationController
 end
 
 
-end
+
