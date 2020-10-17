@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 project1 = Project.create( name: "Synthetix", chain: "ETH", category: "Derivatives", held: 0)
- 
+project2 = Project.create( name: "Maker", chain: "ETH", category: "Lending", held: 0)
+project3 = Project.create( name: "Uniswap", chain: "ETH", category: "AMM", held: 0)
