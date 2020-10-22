@@ -1,0 +1,2 @@
+class TotalValuesController < ApplicationController
+end
