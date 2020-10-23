@@ -1,2 +1,0 @@
-class TotalValue < ApplicationRecord
-end
